@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(116, 198, 157);*/
+    box-sizing: border-box;
+}
+
+/* start part */
+.body {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(116, 198, 157);    
+}
+
+
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+/* plans part */
+.plans {
+    margin-top: 30px;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h5 {
+    color: rgb(116, 198, 157);
+    margin-bottom: 16px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 55px;
+}
+
+/* Cost part */
+.costs_part {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.costs {
+    width: 340px;
+    height: 530px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+.txt {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.functions {    
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;      
+}
+
+.vector {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    margin-top: 20px;
+    background-color: rgb(33, 37, 41);
+    border-color: rgb(33, 37, 41);
+    border-radius: 5px;
+    width: 40%;
+    height: 5vh;
+    color: #fff;
+}
+
